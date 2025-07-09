@@ -1,0 +1,383 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #252422;
+
+}
+
+*{
+    transition: 0.2s;
+}
+
+.nav{
+    background-image: url("WhatsApp Image 2025-07-08 at 18.41.51_ad20c254.jpg");
+    background-size: cover;
+    margin: 0;
+    color: #f4f4f4;
+    height: 100vh;
+    padding: 10px 20px;
+}
+
+.logo{
+    margin: 0;
+    display: inline;
+    padding-left: 40px;
+}
+
+.reg{
+    font-size: 20px;
+}
+
+.navlist {
+    list-style: none;
+    display: inline;
+    margin-left: 360px ;
+    cursor: pointer;
+
+}
+
+.navlist li {
+    display: inline;
+    margin-left: 25px;
+    position: relative;
+}
+
+.navlist li::after{
+    content: "";
+    height: 2px;
+    width: -webkit-fill-available;
+    background: white;
+    position: absolute;
+    bottom: -3px;
+    left: -10px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.navlist li:hover::after {
+    opacity: 1;
+    left: 0;
+}
+
+.more{
+    display: inline;
+    font-size: 40px;
+    float: right;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.section{
+    padding:100px 50px;
+}
+
+
+.secdata{
+    font-size: 30px;
+    width: 50vw;
+}
+
+.seclogo{
+    font-size: 200px;
+    padding-left: 200px;
+    font-weight: bolder;
+    float: right;
+    line-height: 150px;
+}
+
+.secbtn , .secbtnTwo {
+    background-color: transparent;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.secbtn:hover , .secbtnTwo:hover {
+    background-color: #252422;
+    color:#f4f4f4;
+}
+
+
+.gallery{
+    width: 95%;
+    margin: 10px auto 200px;
+}
+
+.gallerytable{
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+.pic img{
+    width: 500px;
+}
+
+.data{
+    font-size: 17px;
+}
+
+.galleryh{
+    padding-left: 30px;
+}
+
+.para{
+    margin: 0;
+    padding: 10px 100px 30px 30px;
+    font-size: 20px;
+    color: #252422;
+}
+
+.line{
+    width: 95%;
+    height: 2px;
+    background-color: #adadad;
+    margin: 10px auto;
+}
+
+.num1{
+    font-size: 20px;
+    color: #252422;
+    font-weight: bolder;
+    padding: 10px 0 0 40px;
+    display: inline;
+}
+
+.num5{
+    font-size: 20px;
+    color: #252422;
+    font-weight: bolder;
+    padding: 10px 0 0 500px;
+    display: inline;
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    background: #252422;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px 0 0 1020px;
+}
+
+.features{
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+.features table{
+    margin-top: 100px;
+
+}
+
+.featureh{
+    font-size: 40px;
+    color: #252422;
+}
+
+.logos td{
+    font-size: 35px;
+    color: #252422;
+    font-weight: bolder;
+    line-height: 10px;
+
+}
+
+.dash{
+    font-weight: lighter;
+    color: #adadad;
+    line-height: 1px;
+}
+
+.featData{
+    height: 200px;
+}
+
+.featH{
+    margin-top: 75px;
+}
+
+.featP{
+    padding-right: 100px;
+}
+
+.sectionTwo{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.sectiontable{
+    width: 100%;
+    background-color: #252422;
+    color: #f9cdcd;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.secdataTwo{
+    height: 100vh;
+    padding: 120px 80px 80px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    line-height: 90px;
+}
+
+
+.secimg img{
+    height: 100vh;
+    padding: 0 50px;
+}
+
+.smallP{
+    font-size: 20px;
+    color: #f9cdcd;
+}
+
+.secbtnTwo{
+    border-color: #f9cdcd;
+    color:#f9cdcd;
+}
+.secbtnTwo:hover {
+    background-color: #f9cdcd;
+    color:#252422;
+}
+
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #252422;
+    color: #f4f4f4;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+.footer a{
+    color: #f4f4f4;
+}
+
+.footp{
+    margin: 0;
+    padding-right:180px;
+    font-weight: 600;
+}
+
+.foottable{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footlogotd{
+    width: 45%;
+    height: 300px;
+}
+
+.innerTable{
+    width: 100%;
+    height: 100%;
+}
+
+.dotbefore{
+    padding-left: 12px;
+    position: relative;
+    font-size: 20px;
+}
+
+.dotbefore::before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 8.5px;
+}
+
+/* News Cards Section Styles - Wider, No BG */
+.news-section {
+    background: none;
+    padding: 40px 0 20px 0;
+}
+.news-card {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+    border-bottom: 1px solid #e0e0e0;
+}
+.news-card:first-child {
+    border-top: 1px solid #e0e0e0;
+}
+.news-card tr {
+    height: 300px;
+}
+.news-img {
+    width: 400px;
+    min-width: 120px;
+    max-width: 400px;
+    height: 250px;
+    padding: 0;
+    overflow: hidden;
+}
+.news-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.news-content {
+    padding: 0 18px 0 18px;
+    vertical-align: middle;
+    width: 70%;
+}
+.news-title {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+}
+.news-meta {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.news-arrow {
+    font-size: 1.5rem;
+    color: #222;
+    text-align: right;
+    width: 40px;
+    padding-right: 18px;
+    vertical-align: middle;
+}
+@media (max-width: 700px) {
+    .news-card {
+        max-width: 100vw;
+    }
+    .news-img, .news-img img {
+        width: 80px;
+        min-width: 80px;
+        max-width: 80px;
+        height: 80px;
+    }
+    .news-card tr {
+        height: 80px;
+    }
+    .news-content {
+        padding: 0 8px;
+    }
+    .news-arrow {
+        padding-right: 8px;
+    }
+}
